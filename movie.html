@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search by movie</title>
+    <link rel="stylesheet" href="style.css">
+<script src="movie_library.js" defer></script>
+</head>
+
+<body>
+    <div id="gap">
+        <label for="title">Title</label>
+        <input type="text" id="title" placeholder="Enter Movie name here">
+    </div>
+
+    <div id="gap">
+        <label for="genre">Genre</label>
+        <input type="text" id="genre" placeholder="Enetr genre here">
+    </div>
+    <button id="search">Search</button>
+    <button onclick="sortByTitle()">sort_title</button>
+    <button id="sort_genre"  onclick="sortBygenre()">sort_genre</button>
+    <ul id="results"></ul>
+    <h2>The count of movies</h2>
+    <ul id="counting"></ul>
+
+
+</body>
+
+</html>
